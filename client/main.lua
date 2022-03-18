@@ -71,7 +71,7 @@ doTrick = function()
 			RequestAnimDict(dict)
 		end
 
-		TaskPlayAnim(PlayerPedId(), dict, anim, 8.0, -8.0, -1, 0, 0, false, false, false)
+		TaskPlayAnim(PlayerPedId(), dict, anim, 8.0, -8.0, -1, 32, 0, false, false, false)
 	else
 		ClearPedTasks(PlayerPedId())
 	end
